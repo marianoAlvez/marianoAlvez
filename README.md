@@ -9,7 +9,7 @@ Hi, I'm Mariano Alvez!
 <br/>
 <p align="center">
 	<a href="https://github.com/marianoAlvez">
-		<img src="https://readme-typing-svg.herokuapp.com?lines=Full+Stack+Web+Developer;Mobile+Flutter+Developer;Backend+Course+Tutor+at+Coder+House;Software+Engineer+at+Universidad+Siglo+21,Freelancer&center=true&width=380&height=45">
+		<img src="https://readme-typing-svg.herokuapp.com?lines=Full+Stack+Web+Developer;Mobile+Flutter+Developer;Backend+Course+Tutor+at+Coder+House;Software+Engineer+at+Universidad+Siglo+21;Freelancer&center=true&width=380&height=45">
 	</a>
 </p>
 <hr>
