@@ -60,13 +60,15 @@ Hi, I'm Mariano Alvez!
       <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original-wordmark.svg" />
       <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/sonarqube/sonarqube-line-wordmark.svg" />
     </kbd>
-     <kbd>
+    <kbd>
       <kbd>Mobile</kbd>
       <br>
       <br>
       <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/dart/dart-original-wordmark.svg" />
       <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/flutter/flutter-original.svg" />
     </kbd>
+    <br>
+    <br>
     <kbd>
       <kbd>Front-end</kbd>
       <br>
