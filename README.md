@@ -6,6 +6,17 @@ Diseño y desarrollo software de principio a fin: arquitectura, servicios backen
 
 Mi experiencia abarca productos SaaS, plataformas educativas, pagos, reservas B2B y herramientas internas. Conecto decisiones de arquitectura con implementación, pruebas y soporte en producción.
 
+## Portafolio técnico
+
+Dos proyectos pequeños para recorrer decisiones de arquitectura, ejecutar las APIs y comprobar su comportamiento ante errores. Son demostraciones independientes creadas para este portafolio, con datos sintéticos y asistencia de IA; no contienen código ni información de clientes.
+
+| Proyecto | Qué permite comprobar | Recorrido |
+| --- | --- | --- |
+| [**Reliable Webhooks Lab**](https://github.com/marianoAlvez/reliable-webhooks-lab) | API NestJS/TypeScript, firma HMAC, idempotencia, inbox/outbox transaccional en SQLite, reintentos y recuperación de entregas. | Enviar un evento, repetirlo, provocar un fallo y observar su recuperación. Incluye contrato OpenAPI y pruebas. |
+| [**AI Review Workbench**](https://github.com/marianoAlvez/ai-review-workbench) | API Python/FastAPI e interfaz React/TypeScript; proveedores intercambiables, validación de respuestas estructuradas y manejo de errores. | Analizar un requerimiento ficticio con el proveedor simulado; revisar riesgos, preguntas y criterios. Incluye pruebas y evaluación reproducible. |
+
+Cada repositorio explica cómo ejecutarlo, las decisiones adoptadas y los límites de la demostración. Las pruebas del proveedor simulado no equivalen a una evaluación de precisión de un modelo real.
+
 ## Arquitectura y backend
 
 - Diseño de arquitecturas modulares, microservicios y soluciones híbridas según el contexto del producto; modelado de dominios, responsabilidades, contratos API y datos.
@@ -23,7 +34,7 @@ Desarrollo herramientas e integraciones con **OpenAI y Gemini**, separación ent
 
 ## Experiencia aplicada en proyectos
 
-Estos casos describen contribuciones profesionales. Los repositorios públicos de aprendizaje están separados más abajo.
+Estos casos describen contribuciones profesionales. Las demostraciones públicas del portafolio son implementaciones independientes.
 
 | Proyecto | Contribución técnica |
 | --- | --- |
@@ -48,22 +59,13 @@ Colaboraciones actuales con **SmartAoS e Innovaslab** y soporte a **Delectatech*
 
 | Área | Tecnologías y prácticas |
 | --- | --- |
-| Lenguajes | TypeScript, JavaScript, Python, Go, Dart y SQL. Rust: conocimientos recientes. |
+| Lenguajes | TypeScript, JavaScript, Python, Go, Dart y SQL. Rust: en aprendizaje. |
 | Backend | Node.js, NestJS, Express, FastAPI, REST, BFF y Swagger/OpenAPI. |
 | Frontend | Angular, React, Vue, Angular Material, RxJS, HTML, CSS/SASS. |
 | Mobile | Flutter y Dart. |
 | Datos y asincronía | PostgreSQL, MySQL, MongoDB, TypeORM, Redis y BullMQ. |
 | Arquitectura e integración | Diseño modular, microservicios, CQRS, modelado de dominios, eventos, webhooks, idempotencia y reintentos. |
 | Calidad y entrega | Docker, AWS, Git, GitHub Actions, CI/CD, Jest, Playwright, documentación y soporte. |
-
-## Muestras públicas de código
-
-Esta selección reúne proyectos personales y prácticas de aprendizaje; no representa la totalidad de mi trabajo profesional para clientes.
-
-- [film_flix](https://github.com/marianoAlvez/film_flix): Flutter, Riverpod, navegación e integración con The Movie Database.
-- [practicaNestMongoDocker](https://github.com/marianoAlvez/practicaNestMongoDocker): práctica de API REST con NestJS, MongoDB y Docker Compose.
-- [Ecommere-Churrasco](https://github.com/marianoAlvez/Ecommere-Churrasco): challenge de ecommerce con Angular, autenticación, catálogo y carrito.
-- [Node.JS-and-Test-Practices](https://github.com/marianoAlvez/Node.JS-and-Test-Practices): ejercicios Node.js/TypeScript con pruebas Jest.
 
 ## Ubicación, idiomas y contacto
 
