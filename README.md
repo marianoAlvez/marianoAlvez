@@ -28,7 +28,7 @@ Cada repositorio explica cómo ejecutarlo, las decisiones adoptadas y los límit
 ## Arquitectura y backend
 
 - Diseño de arquitecturas modulares, microservicios y soluciones híbridas según el contexto del producto; modelado de dominios, responsabilidades, contratos API y datos.
-- APIs REST y Backend for Frontend (BFF) con TypeScript/JavaScript, Node.js, NestJS y Express; APIs y servicios con Python/FastAPI y Go.
+- Desarrollo APIs en Rust y servicios backend con Go y Python/FastAPI. Con TypeScript y JavaScript construyo APIs REST y Backend for Frontend (BFF) usando Node.js, NestJS y Express.
 - Persistencia e integración de datos con PostgreSQL, TypeORM, MySQL y MongoDB; procesamiento asíncrono con Redis y BullMQ.
 - CQRS, integración por eventos, idempotencia, reintentos y recuperación de errores. Webhooks, autenticación, autorización y trazabilidad de procesos.
 
@@ -67,8 +67,8 @@ Colaboraciones actuales con **SmartAoS e Innovaslab** y soporte a **Delectatech*
 
 | Área | Tecnologías y prácticas |
 | --- | --- |
-| Lenguajes | TypeScript, JavaScript, Python, Go, Dart y SQL. Rust aplicado en el laboratorio Posta. |
-| Backend | Node.js, NestJS, Express, FastAPI, REST, BFF y Swagger/OpenAPI. |
+| Lenguajes | TypeScript, JavaScript, Python, Go, Rust, Dart y SQL. |
+| Backend | Desarrollo de APIs en Rust, Node.js, NestJS, Express y FastAPI. REST, BFF y Swagger/OpenAPI. |
 | Frontend | Angular, React, Vue, Angular Material, RxJS, HTML, CSS/SASS. |
 | Mobile | Flutter y Dart. |
 | Datos y asincronía | PostgreSQL, MySQL, MongoDB, TypeORM, Redis y BullMQ. |
