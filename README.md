@@ -2,16 +2,24 @@
 
 **Senior Software Engineer | Arquitectura de software, Backend y Full Stack**
 
-Diseño y desarrollo software de principio a fin: arquitectura, servicios backend, interfaces web, aplicaciones mobile e integraciones de IA. Trabajo con **Node.js/NestJS, Python/FastAPI y Go** en backend; **Angular, React y Vue** en frontend; y **Flutter/Dart** en mobile.
+Diseño APIs e integraciones para productos SaaS, pagos y reservas. Trabajo desde el modelado del dominio hasta las pruebas y el soporte en producción. En este perfil comparto decisiones que se pueden poner a prueba.
 
-Mi experiencia abarca productos SaaS, plataformas educativas, pagos, reservas B2B y herramientas internas. Conecto decisiones de arquitectura con implementación, pruebas y soporte en producción.
+## Posta · ¿Cuándo volverías a comprar una etiqueta de envío?
 
-## Portafolio técnico
+Una tienda pide una etiqueta. El transportista cobra y se pierde la respuesta. Si la tienda le compra a otro, puede terminar pagando dos veces el mismo despacho.
 
-Dos proyectos pequeños para recorrer decisiones de arquitectura, ejecutar las APIs y comprobar su comportamiento ante errores. Son demostraciones independientes creadas para este portafolio, con datos sintéticos y asistencia de IA; no contienen código ni información de clientes.
+En **Posta** comparo las dos decisiones con el mismo pedido. En el segundo 3 podés alternar entre comprar en otro transportista y verificar la referencia original. Verificar evita el segundo cargo en ese ensayo, a costa de dejar el despacho pendiente mientras el proveedor no responda. Usé **Rust y PostgreSQL** para conservar la emisión y su evento en la misma transacción. Una prueba entrega el evento a dos consumidores al mismo tiempo y comprueba que queda un solo registro de auditoría.
+
+**[Recorrer la demo](https://marianoalvez.github.io/carrier-failover-lab/)** · [Leer la decisión de arquitectura](https://github.com/marianoAlvez/carrier-failover-lab/blob/main/docs/adr/001-eventos-de-emision.md) · [Ver el código y las pruebas](https://github.com/marianoAlvez/carrier-failover-lab)
+
+## Otros casos de arquitectura
+
+Estas demos de portafolio utilizan datos ficticios y se desarrollaron con asistencia de IA. Los proyectos profesionales aparecen más abajo.
 
 | Proyecto | Qué permite comprobar | Recorrido |
 | --- | --- | --- |
+| [**Inventario multirregión**](https://github.com/marianoAlvez/regional-inventory-tradeoffs) | Quórum y cupos regionales cuando dos sedes venden el mismo stock y pierden comunicación. | [Comparar qué pedidos se confirman](https://marianoalvez.github.io/regional-inventory-tradeoffs/). |
+| [**Traspaso de autoridad contable**](https://github.com/marianoAlvez/ledger-authority-cutover) | Cambio del sistema que puede escribir sobre una cuenta mientras otras siguen operando. | [Seguir una escritura tardía durante la migración](https://marianoalvez.github.io/ledger-authority-cutover/). |
 | [**Reliable Webhooks Lab**](https://github.com/marianoAlvez/reliable-webhooks-lab) | API NestJS/TypeScript, firma HMAC, idempotencia, inbox/outbox transaccional en SQLite, reintentos y recuperación de entregas. | Enviar un evento, repetirlo, provocar un fallo y observar su recuperación. Incluye contrato OpenAPI y pruebas. |
 | [**AI Review Workbench**](https://github.com/marianoAlvez/ai-review-workbench) | API Python/FastAPI e interfaz React/TypeScript; proveedores intercambiables, validación de respuestas estructuradas y manejo de errores. | Analizar un requerimiento ficticio con el proveedor simulado; revisar riesgos, preguntas y criterios. Incluye pruebas y evaluación reproducible. |
 
@@ -59,7 +67,7 @@ Colaboraciones actuales con **SmartAoS e Innovaslab** y soporte a **Delectatech*
 
 | Área | Tecnologías y prácticas |
 | --- | --- |
-| Lenguajes | TypeScript, JavaScript, Python, Go, Dart y SQL. Rust: en aprendizaje. |
+| Lenguajes | TypeScript, JavaScript, Python, Go, Dart y SQL. Rust aplicado en el laboratorio Posta. |
 | Backend | Node.js, NestJS, Express, FastAPI, REST, BFF y Swagger/OpenAPI. |
 | Frontend | Angular, React, Vue, Angular Material, RxJS, HTML, CSS/SASS. |
 | Mobile | Flutter y Dart. |
